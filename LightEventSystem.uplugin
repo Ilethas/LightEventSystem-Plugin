@@ -1,0 +1,33 @@
+{
+  "FileVersion": 3,
+  "EngineVersion": "5.4",
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "Light Event System",
+  "Description": "Observer pattern implementation for the Unreal Engine ecosystem. Remove tight coupling from your codebase with an event-driven approach.",
+  "Category": "Programming",
+  "CreatedBy": "Mariusz Kurowski",
+  "CreatedByURL": "https://github.com/Ilethas/LightEventSystem-Plugin",
+  "DocsURL": "https://light-event-system.pages.dev/",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "CanContainContent": false,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": false,
+  "EnabledByDefault": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "LightEventSystem",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "PlatformAllowList": [ "Win64" ]
+    },
+    {
+      "Name": "LightEventSystemTests",
+      "Type": "UncookedOnly",
+      "LoadingPhase": "PostConfigInit",
+      "PlatformAllowList": [ "Win64" ]
+    }
+  ]
+}
